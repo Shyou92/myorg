@@ -1,6 +1,0 @@
-@import './brand-theme.css';
-
-:root {
-  --theme-1-brand-button-color: var(--theme-1-brand-button);
-  --theme-1-brand-header-background-color: var(--theme-1-brand-header);
-}

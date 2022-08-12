@@ -1,0 +1,10 @@
+@import './brand-theme.scss';
+
+:root {
+  --theme-1-brand-button-color: var(--social-brand-button-background-color);
+  --theme-1-brand-button-color-hover: var(--social-brand-button-background-color-hover);
+  --theme-1-brand-button-border: var(--social-brand-button-border);
+  --theme-1-brand-button-border-radius: var(--social-brand-button-border-radius);
+  --theme-1-brand-button-padding: var(--social-brand-button-padding);
+  --theme-1-brand-button-text-color-main: var(--social-button-text-color-main);
+}

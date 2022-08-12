@@ -1,4 +1,8 @@
 .theme-1 {
-  // --button-background-color: var(--theme-1-brand-button-color);
-  --header-background-color: var(--theme-1-brand-header-background-color);
+  --button-background-color: var(--theme-1-brand-button-color);
+  --button-background-color-hover: var(--theme-1-brand-button-color-hover);
+  --button-border: var(--theme-1-brand-button-border);
+  --button-border-radius: var(--theme-1-brand-button-border-radius);
+  --button-padding: var(--theme-1-brand-button-padding);
+  --button-text-color-main: var(--theme-1-brand-button-text-color-main);
 }

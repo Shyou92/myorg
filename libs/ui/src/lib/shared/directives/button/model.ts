@@ -1,3 +1,3 @@
-export const buttonSelector = 'button';
+export const buttonSelector = 'myorg-button';
 
 export const ButtonDirectives = [buttonSelector];
