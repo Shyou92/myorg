@@ -3,6 +3,7 @@
   "version": 2,
   "projects": {
     "social": "apps/social",
-    "social-e2e": "apps/social-e2e"
+    "social-e2e": "apps/social-e2e",
+    "ui": "libs/ui"
   }
 }

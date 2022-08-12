@@ -1,0 +1,9 @@
+@import url('../../variables/index.css');
+
+.button {
+  background-color: var(--button-background-color);
+}
+
+.header {
+  background-color: var(--header-background-color);
+}

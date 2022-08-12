@@ -12,9 +12,9 @@
         "main": "apps/social/src/main.ts",
         "polyfills": "apps/social/src/polyfills.ts",
         "tsConfig": "apps/social/tsconfig.app.json",
-        "inlineStyleLanguage": "scss",
+        "inlineStyleLanguage": "css",
         "assets": ["apps/social/src/favicon.ico", "apps/social/src/assets"],
-        "styles": ["apps/social/src/styles.scss"],
+        "styles": ["apps/social/src/styles.css"],
         "scripts": []
       },
       "configurations": {
