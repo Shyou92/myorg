@@ -9,12 +9,13 @@
         "plugin:@angular-eslint/template/process-inline-templates"
       ],
       "rules": {
+        "@angular-eslint/directive-class-suffix": "error",
         "@angular-eslint/directive-selector": [
           "error",
           {
             "type": "attribute",
             "prefix": "myorg",
-            "style": "camelCase"
+            "style": "kebab-case"
           }
         ],
         "@angular-eslint/component-selector": [
@@ -23,6 +24,13 @@
             "type": "element",
             "prefix": "myorg",
             "style": "kebab-case"
+          }
+        ],
+        "@typescript-eslint/dot-notation": [
+          "warn",
+          {
+            "allowPrivateClassPropertyAccess": false,
+            "allowProtectedClassPropertyAccess": false
           }
         ]
       }
