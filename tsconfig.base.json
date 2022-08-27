@@ -15,7 +15,7 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@myorg/ui": ["libs/ui/src/index.ts"]
+      "@myorg/ui": ["libs/ui/src"]
     }
   },
   "exclude": ["node_modules", "tmp", "utils", "**/*.worker.ts"],
