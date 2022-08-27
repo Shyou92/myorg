@@ -1,10 +1,19 @@
 @import './brand-theme.scss';
 
 :root {
-  --theme-1-brand-button-color: var(--social-brand-button-background-color);
-  --theme-1-brand-button-color-hover: var(--social-brand-button-background-color-hover);
-  --theme-1-brand-button-border: var(--social-brand-button-border);
-  --theme-1-brand-button-border-radius: var(--social-brand-button-border-radius);
-  --theme-1-brand-button-padding: var(--social-brand-button-padding);
-  --theme-1-brand-button-text-color-main: var(--social-button-text-color-main);
+  --theme-1-brand-button-primary-color: var(--social-brand-button-primary-background-color);
+  --theme-1-brand-button-primary-color-hover: var(--social-brand-button-primary-background-color-hover);
+  --theme-1-brand-button-primary-border: var(--social-brand-button-primary-border);
+  --theme-1-brand-button-primary-border-radius: var(--social-brand-button-primary-border-radius);
+  --theme-1-brand-button-primary-padding: var(--social-brand-button-primary-padding);
+  --theme-1-brand-button-primary-text-color-main: var(--social-brand-button-primary-text-color-main);
+
+  --theme-1-brand-button-secondary-color: var(--social-brand-button-secondary-background-color);
+  --theme-1-brand-button-secondary-color-hover: var(--social-brand-button-secondary-background-color-hover);
+  --theme-1-brand-button-secondary-border: var(--social-brand-button-secondary-border);
+  --theme-1-brand-button-secondary-border-radius: var(--social-brand-button-secondary-border-radius);
+  --theme-1-brand-button-secondary-padding: var(--social-brand-button-secondary-padding);
+  --theme-1-brand-button-secondary-text-color-main: var(--social-brand-button-secondary-text-color-main);
+
+  --theme-1-brand-button-secondary-padding-sm: var(--social-brand-button-secondary-padding-sm);
 }

@@ -1,9 +1,9 @@
 import { Directive, ElementRef } from '@angular/core';
 
-import { ButtonDirectives, buttonSelector } from './model';
+import { ButtonDirectives, buttonPrimary, buttonSecondaryMd, buttonSecondarySm } from './model';
 
 @Directive({
-  selector: `button[${buttonSelector}]`,
+  selector: `button[${buttonPrimary}], button[${buttonSecondaryMd}], button[${buttonSecondarySm}]`,
 })
 export class ButtonDirective {
   constructor(private elementRef: ElementRef<HTMLButtonElement>) {

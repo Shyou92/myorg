@@ -1,8 +1,17 @@
 :root {
-  --button-background-color: lightgrey;
-  --button-background-color-hover: #b3b3b3;
-  --button-border: 1px solid black;
-  --button-border-radius: 5px;
-  --button-padding: 5px 10px;
-  --button-text-color-main: black;
+  --button-primary-background-color: lightgrey;
+  --button-primary-background-color-hover: #b3b3b3;
+  --button-primary-border: 1px solid black;
+  --button-primary-border-radius: 5px;
+  --button-primary-padding: 5px 10px;
+  --button-primary-text-color-main: black;
+
+  --button-secondary-background-color: black;
+  --button-secondary-background-color-hover: #2c2828;
+  --button-secondary-border: 1px solid #2c2828;
+  --button-secondary-border-radius: 15px;
+  --button-secondary-padding: 8px 12px;
+  --button-secondary-text-color-main: lightgrey;
+
+  --button-secondary-padding-sm: 4px 6px;
 }

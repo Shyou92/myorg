@@ -1,16 +1,44 @@
 @import '../../variables/index.scss';
 
-.myorg-button {
-  border: var(--button-border);
-  border-radius: var(--button-border-radius);
-  background-color: var(--button-background-color);
-  padding: var(--button-padding);
-  color: var(--button-text-color-main);
+.myorg-button-primary {
+  border: var(--button-primary-border);
+  border-radius: var(--button-primary-border-radius);
+  background-color: var(--button-primary-background-color);
+  padding: var(--button-primary-padding);
+  color: var(--button-primary-text-color-main);
   cursor: pointer;
   transition: 0.5s;
 
   &:hover {
-    background-color: var(--button-background-color-hover);
+    background-color: var(--button-primary-background-color-hover);
+    opacity: 0.8;
+  }
+}
+
+.myorg-button-secondary {
+
+  &-md {
+    border: var(--button-secondary-border);
+    border-radius: var(--button-secondary-border-radius);
+    background-color: var(--button-secondary-background-color);
+    padding: var(--button-secondary-padding);
+    color: var(--button-secondary-text-color-main);
+    cursor: pointer;
+    transition: 0.5s;
+  }
+
+  &-sm {
+    border: var(--button-secondary-border);
+    border-radius: var(--button-secondary-border-radius);
+    background-color: var(--button-secondary-background-color);
+    padding: var(--button-secondary-padding-sm);
+    color: var(--button-secondary-text-color-main);
+    cursor: pointer;
+    transition: 0.5s;
+  }
+
+  &:hover {
+    background-color: var(--button-secondary-background-color-hover);
     opacity: 0.8;
   }
 }

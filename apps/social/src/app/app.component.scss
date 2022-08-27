@@ -1,8 +1,15 @@
 .theme-1 {
-  --button-background-color: var(--theme-1-brand-button-color);
-  --button-background-color-hover: var(--theme-1-brand-button-color-hover);
-  --button-border: var(--theme-1-brand-button-border);
-  --button-border-radius: var(--theme-1-brand-button-border-radius);
-  --button-padding: var(--theme-1-brand-button-padding);
-  --button-text-color-main: var(--theme-1-brand-button-text-color-main);
+  --button-primary-background-color: var(--theme-1-brand-button-primary-color);
+  --button-primary-background-color-hover: var(--theme-1-brand-button-primary-color-hover);
+  --button-primary-border: var(--theme-1-brand-button-primary-border);
+  --button-primary-border-radius: var(--theme-1-brand-button-primary-border-radius);
+  --button-primary-padding: var(--theme-1-brand-button-primary-padding);
+  --button-primary-text-color-main: var(--theme-1-brand-button-primary-text-color-main);
+  --button-secondary-background-color: var(--theme-1-brand-button-secondary-color);
+  --button-secondary-background-color-hover: var(--theme-1-brand-button-secondary-color-hover);
+  --button-secondary-border: var(--theme-1-brand-button-secondary-border);
+  --button-secondary-border-radius: var(--theme-1-brand-button-secondary-border-radius);
+  --button-secondary-padding: var(--theme-1-brand-button-secondary-padding);
+  --button-secondary-text-color-main: var(--theme-1-brand-button-secondary-text-color-main);
+  --button-secondary-padding-sm: var(--theme-1-brand-button-secondary-padding-sm);
 }
